@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import static com.lakshay.jimstimetable.R.id.bca_saturday;
+
 /**
  * Created by saurabh on 17-02-2015.
  */
@@ -26,6 +28,8 @@ public class BCA_fragment extends Fragment implements View.OnClickListener {
         thurs.setOnClickListener(this);
         Button fri = (Button) view.findViewById(R.id.bca_friday);
         fri.setOnClickListener(this);
+        Button sat= (Button) view.findViewById(bca_saturday);
+        sat.setOnClickListener(this);
         return view;
     }
 

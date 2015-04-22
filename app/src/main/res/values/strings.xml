@@ -9,8 +9,30 @@
     <string name="wednesday">Wednesday</string>
     <string name="thursday">Thursday</string>
     <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
     <string name="title_activity_fullscreen">FullscreenActivity</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string-array name="bca_tuesday">
+        <item>POM\nMs.Shweta Goel\nF1</item>
+        <item>Dig. Electronics\nMs. Shweta Ohri\nF1</item>
+        <item>DBMS Lab\nMs. Shweta Ohri\nLab</item>
+        <item>Maths-II\nMs. Neha Jain\nF1</item>
+        <item>DS using C\n Mr.Deepak Sharma\nF1</item>
+        <item>DS Lab\nMr. Deepak Sharma\nLab</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Dig. Electronics\nMs. Shweta Ohri\nF1</item>
+        <item>Maths-II\nMs. Neha Jain\nF1</item>
+        <item>POM\nMs. Shweta Goel\nF1</item>
+
+    </string-array>
 
 </resources>

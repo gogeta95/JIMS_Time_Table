@@ -33,4 +33,9 @@
         android:layout_height="wrap_content"
         android:text="@string/friday"
         android:id="@+id/bca_friday" />
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="@string/saturday"
+        android:id="@+id/bca_saturday" />
 </LinearLayout>
