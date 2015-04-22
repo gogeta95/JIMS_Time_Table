@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#647474"
+        android:gravity="center"
+        android:text="JAGANNATH INTERNATIONAL MANAGEMENT SCHOOL"
+        android:textColor="#fff"
+        android:textSize="24sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#865893"
+        android:gravity="center"
+        android:text="SATURDAY"
+        android:textColor="#fff"
+        android:textSize="24sp" />
+
+    <View style="@style/DividerHorizontal" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        card:cardCornerRadius="4dp">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="64dp"
+                            android:background="#883908"
+                            android:gravity="center"
+                            android:text="CLASS" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:background="#892745"
+                            android:gravity="center"
+                            android:text="1" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:background="#892745"
+                            android:gravity="center"
+                            android:text="2" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:background="#892745"
+                            android:gravity="center"
+                            android:text="3" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:background="#892745"
+                            android:gravity="center"
+                            android:text="BREAK" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:background="#892745"
+                            android:gravity="center"
+                            android:text="4" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:background="#892745"
+                            android:gravity="center"
+                            android:text="5" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:background="#892745"
+                            android:gravity="center"
+                            android:text="BREAK" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:background="#892745"
+                            android:gravity="center"
+                            android:text="6" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:background="#892745"
+                            android:gravity="center"
+                            android:text="7" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:background="#892745"
+                            android:gravity="center"
+                            android:text="8" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:background="#892745"
+                            android:gravity="center"
+                            android:text="BREAK" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:background="#892745"
+                            android:gravity="center"
+                            android:text="9" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:background="#892745"
+                            android:gravity="center"
+                            android:text="10" />
+
+                        <View style="@style/DividerVertical" />
+                    </TableRow>
+
+                    <View style="@style/DividerHorizontal" />
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/TableCell"
+                            android:background="#c6c" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell"
+                            android:text="8:10-9:05" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell"
+                            android:text="9:05-10:00" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell"
+                            android:text="10:00-10:55" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell"
+                            android:text="10:55-11:15" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell"
+                            android:text="11:15-12:10" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell"
+                            android:text="12:10-1:05" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell"
+                            android:text="1:05-1:15" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell"
+                            android:text="1:10-2:10" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell"
+                            android:text="2:10-3:05" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell"
+                            android:text="3:05-4:00" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell"
+                            android:text="4:00-4:20" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell"
+                            android:text="4:20-5:15" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell"
+                            android:text="5:15-6:10" />
+
+                        <View style="@style/DividerVertical" />
+                    </TableRow>
+
+                    <View style="@style/DividerHorizontal" />
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/TableCell.RowHeader"
+                            android:text="BCA-II\n(M)" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="DS Lab\n
+Mr. Deepak Sharma\n
+Lab
+" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="DS Lab\n
+Mr. Deepak Sharma\n
+Lab
+" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="DBMS Lab\n
+Ms. Shweta Ohri\n
+Lab
+" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:background="#663300"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="DBMS Lab\n
+Ms. Shweta Ohri\n
+Lab
+" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="DBMS\n
+Ms. M. Narula\n
+F1
+" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:background="#663300"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:background="#663300"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+                    </TableRow>
+
+                    <View style="@style/DividerHorizontal" />
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/TableCell.RowHeader"
+                            android:text="BCA-II\n(E)\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView style="@style/TableCell.Data" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:background="#663300"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView style="@style/TableCell.Data" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:background="#663300"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="DS Lab\n
+Dr. Ruchi\n
+Lab
+" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="DS Lab\n
+Dr. Ruchi\n
+Lab
+" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="Cyber Ethics\n
+Prof. P.K. De\n
+F1
+" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:background="#663300"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="DBMS Lab\n
+Ms. Seema Agarwal\n
+Lab
+" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="DBMS Lab\n
+Ms. Seema Agarwal\n
+Lab
+" />
+
+                        <View style="@style/DividerVertical" />
+                    </TableRow>
+
+                    <View style="@style/DividerHorizontal" />
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/TableCell.RowHeader"
+                            android:text="BCA-IV\n(M)\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="Java Lab\n
+Ms. Jyoti Shukla\n
+Lab
+" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="Java Lab\n
+Ms. Jyoti Shukla\n
+Lab
+" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="Java Thry.\n
+Ms. Jyoti Shukla\n
+F2
+" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:background="#663300"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="WebTech Lab\n
+Mr. Varun Sapra\n
+Lab
+" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="WebTech Lab\n
+Mr. Varun Sapra\n
+Lab
+" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:background="#663300"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView style="@style/TableCell.Data" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:background="#663300"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+                    </TableRow>
+
+                    <View style="@style/DividerHorizontal" />
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/TableCell.RowHeader"
+                            android:text="BCA-IV\n(E)\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:background="#663300"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="PDS\n
+Prof. P.K. De\n
+F2
+" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:background="#663300"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="Java Lab\n
+Ms. Sakshi Chhabra\n
+Lab
+" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="Java Lab\n
+Ms. Sakshi Chhabra\n
+Lab
+" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="SE\n
+Ms. M. L. Joshi\n
+F2
+" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:background="#663300"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="WebTech Lab\n
+Dr. Ruchi\n
+Lab
+" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="WebTech Lab\n
+Dr. Ruchi\n
+Lab
+" />
+
+                        <View style="@style/DividerVertical" />
+                    </TableRow>
+
+                    <View style="@style/DividerHorizontal" />
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/TableCell.RowHeader"
+                            android:text="BCA-VI\n(M)\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="Major Project\n
+Ms. Arpana Chaturvedi\n
+Lab
+" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="Major Project\n
+Ms. Arpana Chaturvedi\n
+Lab
+" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="Seminar\n
+Ms. Seema Agarwal\n
+F3
+" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:background="#663300"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="Major Project\n
+Ms. Sakshi Chhabra\n
+Lab
+" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="Major Project\n
+Ms. Sakshi Chhabra\n
+Lab
+" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:background="#663300"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView style="@style/TableCell.Data" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:background="#663300"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+                    </TableRow>
+
+                    <View style="@style/DividerHorizontal" />
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/TableCell.RowHeader"
+                            android:text="BCA-VI\n(E)\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:background="#663300"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView style="@style/TableCell.Data" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:background="#663300"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="Linux Lab\n
+Ms. Vimmi Jaiswal\n
+Lab
+" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="Major Project\n
+Ms. Arpana Chaturvedi\n
+Lab
+" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="Major Project\n
+Ms. Arpana Chaturvedi\n
+Lab
+" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:background="#663300"
+                            android:text="\n\n\n" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="Major Project\n
+Ms. Sakshi Chhabra\n
+Lab
+" />
+
+                        <View style="@style/DividerVertical" />
+
+                        <TextView
+                            style="@style/TableCell.Data"
+                            android:text="Major Project\n
+Ms. Sakshi Chhabra\n
+Lab
+" />
+
+                        <View style="@style/DividerVertical" />
+                    </TableRow>
+                </TableLayout>
+            </HorizontalScrollView>
+        </ScrollView>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
